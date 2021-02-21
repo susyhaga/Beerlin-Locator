@@ -10,4 +10,4 @@ Even in Europe, people would like to have a cold beer to cool theirselves off.
 The partnership with the establishments that sell beers is essential to e the potential of this app, plus.
 
 # Tools
-Flask, SQLAlchemy, JavaScript 
+Flask, SQLAlchemy, JavaScript, SQLite
