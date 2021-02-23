@@ -13,4 +13,4 @@ Moreover,the users will be able to rank the products from x place to become Beer
 The partnership with the establishments that sell beers is essential to e the potential of this app, plus.
 
 # Tools
-Flask, SQLAlchemy, JavaScript, SQLite
+Flask, SQLAlchemy, JavaScript, SQLite, GeoAlchemy 2, SpatiaLite
