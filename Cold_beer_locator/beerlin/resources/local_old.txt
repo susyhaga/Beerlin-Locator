@@ -1,0 +1,10 @@
+1,Franken Bar,Oranienstraße 19A,52.500217,13.420978,10999,Berlin
+2,Kuckucksei,Barbarossastraße 5a,52.4921747,13.3513541,10781,Berlin
+3,Clash Bar,Gneisenaustraße 2A,52.492469,13.3861686,10961,Berlin
+4,Schokoladen,Ackerstraße 169,52.529276,13.3965504,10115,Berlin
+5,Hard Rock Cafe,Kurfürstendamm 224,52.5030845,13.3290236,10719,Berlin
+6,Cafe Piter,Schaperstraße 14,52.5017752,13.3308286,10719,Berlin
+7,Pincho Nation,Meinekestraße 22,52.5014906,13.3288196,10719,Berlin
+8,NOAHS Restaurant,Ansbacher Str. 21,52.5011314,13.3424663,10787,Berlin
+9,Zokis-Beer Pub,Kaulbachstraße 68,52.4386299,13.3415764,12247,Berlin
+10,Fischladen,Rigaer Str. 83,52.5126115,13.4533583,10247,Berlin
