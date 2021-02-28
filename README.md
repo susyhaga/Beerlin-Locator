@@ -12,5 +12,8 @@ Moreover,the users will be able to rank the products from x place to become Beer
 # Partnership
 The partnership with the establishments that sell beers is essential to e the potential of this app, plus.
 
+# Languages
+Python, SQL, JavaScript, HTML, CSS  
+
 # Tools
-Flask, SQLAlchemy, JavaScript, SQLite, GeoAlchemy 2, SpatiaLite
+Flask, SQLAlchemy, React, SQLite, GeoAlchemy 2, SpatiaLite, Boostrap
