@@ -16,4 +16,4 @@ The partnership with the establishments that sell beers is essential to e the po
 Python, SQL, JavaScript, HTML, CSS  
 
 # Tools
-Flask, SQLAlchemy, React, SQLite, GeoAlchemy 2, SpatiaLite, Boostrap
+Flask, SQLAlchemy, React, SQLite, GeoAlchemy 2, SpatiaLite, Boostrap, Pandas
