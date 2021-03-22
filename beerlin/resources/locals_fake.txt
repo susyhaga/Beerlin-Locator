@@ -1,0 +1,90 @@
+11,Celina the Cake,Genslerstraße 47,,,10707
+12,Celina the Casket,Leopoldstraße 36,,,12527
+13,Celina the Cider,Leopoldstraße 24,,,12524
+14,Celina the Caffeine,Brandenburgische Straße 12,,,12305
+15,Celina the Cafe,Genslerstraße 48,,,10707
+16,Celina the Consumption,Brandenburgische Straße 23,,,12527
+17,Celina the Cannabis,Alt-Moabit 81,,,12524
+18,Celina the Candy,Bayreuther Strasse 58,,,12305
+19,Celina the Coffins,Brandenburgische Straße 14,,,12589
+20,Celina the Coffin,Brandenburgische Straße 19,,,10707
+21,Celina the Cantina,Brandenburgische Straße 2,,,12527
+22,Celina the Caffeinism,Brandenburgische Straße 21,,,12524
+23,Descriptive Nicknames,Brandenburgische Straße 26,,,10707
+24,Tam the Beer Drinker,Brandenburgische Straße 28,,,12527
+25,Spirituous Tam,Brandenburgische Straße 45,,,10707
+26,Bitter Tam,Brandenburgische Straße 46,,,12527
+27,Alcoholometric Tam,Brandenburgische Straße 49,,,12524
+28,Tam the Aletaster,Brandenburgische Straße 52,,,12305
+29,Beer Tam,Brandenburgische Straße 57,,,12589
+30,Tam the Bare,Brandenburgische Straße 6,,,10707
+31,Tam the Ale,Brandenburgische Straße 60,,,12527
+32,Tam the Bear,Brandenburgische Straße 61,,,12524
+33,Tam the Alcoholic Beverage,Brandenburgische Straße 63,,,12305
+34,Ebrious Tam,Brandenburgische Straße 66,,,12589
+35,Tam the Alcoholicity,Brandenburgische Straße 68,,,10707
+36,Tam the Alcoholic Beverage,Brandenburgische Straße 68,,,12527
+37,Tam the Alcoholics,Brandenburgische Straße 7,,,12524
+38,Underproof Tam,Brandenburgische Straße 70,,,12305
+39,Spirituous Tam,Brandenburgische Straße 95,,,12589
+40,Alcohol Tam,Brandenburgische Straße 96,,,10707
+41,Tam the Alcoholic,Genslerstraße 10,,,12527
+42,Tam the Alcoholism,Genslerstraße 11,,,12524
+43,Alcoholometric Tam,Genslerstraße 12,,,12305
+44,Tam the Backrest,Genslerstraße 13,,,12589
+45,Tam the Attorneys,Genslerstraße 15,,,10707
+46,Tam the Ban,Genslerstraße 24,,,12527
+47,Tam the Alley,Genslerstraße 27,,,12524
+48,Tam the Association,Genslerstraße 28,,,12305
+49,Bar Tam,Genslerstraße 28,,,12589
+50,Tam the Arg,Genslerstraße 30,,,12527
+51,Sham Tam,Genslerstraße 30,,,12524
+52,Celina the Patina,Genslerstraße 32,,,10707
+53,Ram Tam,Genslerstraße 35,,,12527
+54,Subpoena Celina,Genslerstraße 36,,,10707
+55,Begin Quinn,Genslerstraße 38,,,12527
+56,Quinn the Sin,Genslerstraße 39,,,12524
+57,Win Quinn,Genslerstraße 44,,,12305
+58,Celina the Arena,Genslerstraße 45,,,12589
+59,Diagram Tam,Genslerstraße 51,,,10707
+60,Slam Tam,Genslerstraße 53,,,12527
+61,Tam the Dam,Genslerstraße 59,,,12524
+62,Quinn the Skin,Genslerstraße 6,,,12305
+63,Concertina Celina,Genslerstraße 67,,,12589
+64,In Quinn,Genslerstraße 70,,,10707
+65,Pin Quinn,Genslerstraße 75,,,12527
+66,Damn Tam,Genslerstraße 80,,,12524
+67,Spin Quinn,Genslerstraße 85,,,12305
+68,Tamo,Genslerstraße 87,,,12589
+69,Tamster,Genslerstraße 87,,,10707
+70,Tamy,Genslerstraße 88,,,12527
+71,Taminator,Genslerstraße 94,,,12527
+72,Tamomeister,Genslerstraße 95,,,12524
+73,Celo,Genslerstraße 98,,,10707
+74,Cely,Genslerstraße 98,,,12527
+75,Celster,Landhausstraße 13,,,10707
+76,Celinator,Landhausstraße 46,,,12527
+77,Celomeister,Landhausstraße 48,,,12524
+78,Quinninator,Landhausstraße 52,,,12305
+79,Quinnster,Leopoldstraße 12,,,12589
+80,Quinnomeister,Leopoldstraße 14,,,10707
+81,Quinny,Leopoldstraße 28,,,12527
+82,Quinno,Leopoldstraße 31,,,12524
+83,Tam-nova,Leopoldstraße 37,,,12305
+84,Beer Baby,Leopoldstraße 37,,,12589
+85,Alcohol Chip,Leopoldstraße 39,,,10707
+86,Bar Muffin,Leopoldstraße 44,,,12527
+87,Tam Bear,Leopoldstraße 45,,,12524
+88,Tambug,Leopoldstraße 52,,,12305
+89,Tamkitten,Leopoldstraße 65,,,12589
+90,The Bob Suffix,Leopoldstraße 78,,,10707
+91,Tambob,Leopoldstraße 80,,,12527
+92,Celbob,Leopoldstraße 89,,,12524
+93,Quinnbob,Leopoldstraße 89,,,10707
+94,Sebastian-nova,Leopoldstraße 90,,,12527
+95,Bar Baby,Leopoldstraße 90,,,10707
+96,Beer Chip,Leopoldstraße 92,,,12527
+97,Little Muffin,Leopoldstraße 98,,,12524
+98,Sebastian Bear,Waßmannsdorfer Chaussee 19,,,12305
+99,Sebastianbug,Waßmannsdorfer Chaussee 41,,,12589
+100,Sebastiankitten,Waßmannsdorfer Chaussee 76,,,10707
