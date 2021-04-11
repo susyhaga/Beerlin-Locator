@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+
+    <!-- Map Icons -->
+	  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='map-icons/css/map-icons.css') }}">
+	  <script type="text/javascript" src="{{ url_for('static', filename='map-icons/js/map-icons.js') }}"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="static/main.css"/>
+
+
+
+    {% if title %}
+    <title> Beerlin - {{ title }}</title>
+    {% else %}
+    <title>Beerlin</title>
+    {% endif %}
+
+
+    
+
+<!-- Styles -->	
+<style>
+    body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffc107;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ffc107;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: rgb(255, 255, 255);
+}
+.closeNav{
+  background-color: rgb(0, 0, 0);
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+position: absolute;
+top:0;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+</style>
+
+
+<!-- Styles -->	
+<style>
+body {
+background-image: url("static/imagens/back2.jpeg");   
+min-height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+    }
+
+    
+    </style>
+   </head>
+   <body>
+
+
+  <!-- HTML-->
+  
+    <header class="site-header">
+        {% if not current_user.is_authenticated %}
+       
+                      <nav class="navbar navbar-expand-md navbar-light bg-warning fixed-top">
+                        <div class="container">
+                            <div class=" justify-left">
+                            <a class="navbar-brand"href="#"><image src="static/imagens/logo2.png" width="40" height="45"></a>
+                            </div>  
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                                aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                                            
+                            <!-- NavbarSide -->
+                                <div class="collapse navbar-collapse" id="navbarToggle">
+                                    
+                                    <div class="navbar-nav mr-auto">
+                                        
+                       <a class="nav-item nav-link" style="color: black;" href="{{ url_for('main.home') }}">Home</a>
+                        <a class="nav-item nav-link" style="color: black;" href="{{ url_for('users.login') }}">Login</a>
+                        <a class="nav-item nav-link" style="color: black;" href="{{ url_for('users.register') }}">Register</a>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </nav>
+    </header>
+
+    {% else %}
+
+        
+       <div class="align-center justify-content">
+        <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div class="text-center">
+            <div class="text-center">
+              <img class="rounded-circle account-img" src="static/imagens/{{ current_user.image_file }}"></div>
+              <div class="media-body">
+                <h2 class="account-heading">{{ current_user.username }}</h2>
+                <p class="text-secondary" style=" margin-left:1px" >{{ current_user.email }}</p>
+ <a class="text-center" style="color: rgb(12, 40, 117); font-size: 15px;"; href="{{ url_for('users.account') }}">edit</a>
+              
+
+            </div>
+        </div>
+        <hr class= "solid">
+       <div class="align-self-center justify-content">
+        <div class="text-center">
+        <small class="text-muted">
+            <a class="nav-item nav-link" style="color: black;" href="{{ url_for('maps.map') }}">Beer Map</a>
+        <a class="nav-item nav-link" style="color: black;" href="{{ url_for('maps.new_rank') }}">Ranking</a>
+        <a class="nav-item nav-link" style="color: black;" href="{{ url_for('maps.map') }}">Wallet</a>
+        <hr class= "solid">
+        <a class="nav-item nav-link" style="color: black;" href="{{ url_for('users.logout') }}">Logout</a> 
+        <div class=" text-center">
+            <a class="navbar-brand"href="#"><image src="static/imagens/logo1.png" width="180" height="150" style="margin-top:180px"></a>
+            </div>  
+        </div>
+    </div>  
+      </div>
+    </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Profile</button>  
+       
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "400px";
+        document.getElementById("main").style.marginLeft = "400px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+{% endif %}
+
+
+
+
+
+
+    <main role="main" class="container">
+
+    </div>
+<br>
+
+
+
+        <div class="row">
+            <div class="col-md-8">
+
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                {% for category, message in messages %}
+                
+                <div class="alert alert-{{ category }}">
+                    {{ message }}
+                    
+                </div>
+                {% endfor %} 
+                {% endif %}
+                {% endwith %}
+                {% block content %}{% endblock %}
+
+                
+            </div>
+            
+        </div>
+        
+    </main>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+   
+</body>
+</html>
