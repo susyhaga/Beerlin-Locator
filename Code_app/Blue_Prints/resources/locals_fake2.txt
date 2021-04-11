@@ -1,0 +1,71 @@
+1,Franken Bar,Oranienstrasse 19A,52.5006071,13.4221433,10999,Berlin
+2,Kuckucksei,Barbarossastrasse 5a,52.492128,13.3522441,10781,Berlin
+3,Clash Bar,Gneisenaustrasse 2A,52.4918375,13.38905163,10961,Berlin
+4,Schokoladen,Ackerstrase 169,52.5297465,13.3972037,10115,Berlin
+5,Hard Rock Cafe,Kurfurstendamm 224,52.5031121,13.3294737,10719,Berlin
+6,Cafe Piter,Schaperstrasse 14,52.4996727,13.3303827,10719,Berlin
+7,Pincho Nation,Meinekestrasse 22,52.5019505,13.3295301,10719,Berlin
+8,NOAHS Restaurant,Ansbacher Str. 21,52.5027181,13.3429638,10787,Berlin
+9,Zokis-Beer Pub,Kaulbachstrasse 68,52.4396853,13.3424907,12247,Berlin
+10,Fischladen,Rigaer Str. 83,52.5170566,13.4619369,10247,Berlin
+11,ORA,Oranienplatz 14,52.5014009,13.4160011,10999,Berlin
+12,Madame Claude,Lubbener Strasse 19,52.4996291,13.4374513,10997,Berlin
+13,Clarchens Ballhaus,Auguststrasse 24,52.526614,13.3968635,10117,Berlin
+14,Das Hotel,Mariannenstrasse 26A,52.4966164,13.4203831,10999,Berlin
+15,Hops & Barley,Wuhlischstrasse 22,52.5090101,13.460391,10245,Berlin
+16,The Black Lodge,Sanderstrasse 6,52.4921686,13.4244257,12047,Berlin
+17,Badfish Bar,Stargarder Strasse 14,52.546571,13.4176684,10437,Berlin
+18,Tante Lisbeth,Muskauer Strasse 49,52.5012522,13.4316295,10997,Berlin
+19,Green Door,Winterfeldtstrasse 50,52.497023,13.3529456,10781,Berlin
+20,Klunkerkranich,Karl-Marx-Strasse 66,52.48209125,13.4321498,12043,Berlin
+21,KIM Bar,Brunnenstrasse 10,52.5311505,13.40029,10119,Berlin
+22,Kaschk,Linienstrasse 40,52.5284199,13.4099389,10119,Berlin
+23,Monkey Bar,Budapester Strasse 40,52.50563185,13.33789924,10787,Berlin
+24,Tausend,Schiffbauerdamm 11,52.5208236,13.3847097,10117,Berlin
+25,Kantine am Berghain,Rudersdorfer Str 70,52.51133235,13.44400739,10243,Berlin
+26,Geist Im Glass,Lenaustrasse 27,52.4901043,13.4248129,12047,Berlin
+27,Dschungel Bar,Friedelstrasse 12,52.4892686,13.4279315,12047,Berlin
+28,Prater Garten,Kastanienallee 7-9,52.5402476,13.40952176,10435,Berlin
+29,Buck and Breck,Brunnenstrasse 117,52.5299271,13.4011458,10119,Berlin
+30,Meine Bar ICI,Auguststrasse 61,52.5272149,13.3974755,10117,Berlin
+31,Silver Future,Weserstrasse 206,52.4880316,13.4302103,12047,Berlin
+32,Neue Odessa Bar,Torstrasse 89,52.529697,13.4056757,10119,Berlin
+33,Mobel-Olfe,Reichenberger Str 177,52.5000581,13.4174433,10999,Berlin
+34,A,Weserstrasse 40,52.4850209,13.4372849,12045,Berlin
+35,Barbie Deinhoffs,Schlesische Strasse 16,52.4990555,13.4454679,10997,Berlin
+36,Cafe Luzia,Oranienstrasse 34,52.5019625,13.4185606,10999,Berlin
+37,Mein Haus Am See,Brunnenstrasse 197,52.5299774,13.4006925,10119,Berlin
+38,alles GuT,Horstweg 7,52.5119036,13.2940839,14059,Berlin
+39,Stagger Lee,Nollendorfstrasse 27,52.4976021,13.351468,10777,Berlin
+40,Mama Bar,Hobrechtstrasse 61,52.4905139,13.4261189,12047,Berlin
+41,Rum Trader,Fasanenstrasse 40,52.4985234,13.3266362,10719,Berlin
+42,Fuchsbau,Planufer 96,52.4956167,13.4194169,10967,Berlin
+43,Victoria Bar,Potsdamer Strasse 102,52.5013718,13.363858,10785,Berlin
+44,Fairytale Bar,Am Friedrichshain 24,52.5287322,13.4281707,10407,Berlin
+45,Bar 3,Weydingerstrasse 20,52.5269858,13.4146806,10178,Berlin
+46,Bei Schlawinchen,Schonleinstrasse 34,52.4927208,13.4217007,10967,Berlin
+47,Kumpelnest 3000,Lutzowstrasse 23,52.5030645,13.3664534,10785,Berlin
+48,Sharlie Cheen Bar,Brunnenstrasse 196,52.5301909,13.4006727,10119,Berlin
+49,BESTE Bar,Willdenowstrasse 12A,52.5438832,13.3606142,13353,Berlin
+50,BrewDog Berlin Mitte,Ackerstrasse 29,52.5327995,13.3957736,10115,Berlin
+51,The Castle Berlin Mitte,Invalidenstrasse 129,52.5315315,13.3884325,10115,Berlin
+52,Belushi's Berlin,Rosa-Luxemburg-Strasse 41,52.5149195,13.5111706,10718,Berlin
+53,booze bar berlin,Boxhagener Str 105,52.5127422,13.458706,10245,Berlin
+54,Hansbach Bar,Samariterstrasse 18,52.5192393,13.4667541,10247,Berlin
+55,Minimal Bar,Rigaer Str 31,52.5164827,13.4639097,10247,Berlin
+56,Rockcafe HALFORD,Mainzer Str 15,52.512183,13.4617297,10247,Berlin
+57,Royal Bar,Pfalzburger Str 5,52.49895535,13.3222063,10719,Berlin
+58,Velvet,Ganghoferstrasse 1,52.4789992,13.4384993,12043,Berlin
+59,Havanna Bar,Treskowallee 111,52.4816878,13.5257159,10318,Berlin
+60,Paparazzi 63,Cecilienpl. 5,52.5216308,13.5916382,12619,Berlin
+61,Chill Out Lounge,Cecilienpl. 10,52.5210891,13.5898802,12619,Berlin
+62,Bierkeller,Oberfeldstrasse 111,52.5289508,13.5586693,12683,Berlin
+63,Cafe Memoli,Allee der Kosmonauten 131,52.5299438,13.547241,12681,Berlin
+64,BeachBar Helene-Weigel-Platz,Helene-Weigel-Platz 4,52.5281578,13.538715,12681,Berlin
+65,Balkan Bar,Siegfriedstrasse 2,52.5125204,13.4980022,10365,Berlin
+66,Finest's The Irish Pub,Waldstrasse 58,52.5278383,13.3304278,10551,Berlin
+67,Mauerwerk,Zwinglistrasse 7,52.5256406,13.3329009,10555,Berlin
+68,Heine Bar,Putlitzstrasse 19,52.5324846,13.3429665,10551,Berlin
+69,Perlou,Perleberger Str 58,52.5325355,13.350999,10559,Berlin
+70,Vagabund Brauerei,Antwerpener Str 3,52.5478615,13.3493543,13353,Berlin
+71,Eschenbrau,Triftstrasse 67,52.5434524,13.3597107,13353,Berlin

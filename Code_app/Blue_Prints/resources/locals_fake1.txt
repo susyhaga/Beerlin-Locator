@@ -1,0 +1,71 @@
+1,Franken Bar,Oranienstraße 19A,,,10999
+2,Kuckucksei,Barbarossastraße 5a,,,10781
+3,Clash Bar,Gneisenaustraße 2A,,,10961
+4,Schokoladen,Ackerstrase 169,,,10115
+5,Hard Rock Cafe,Kurfurstendamm 224,,,10719
+6,Cafe Piter,Schaperstraße 14,,,10719
+7,Pincho Nation,Meinekestraße 22,,,10719
+8,NOAHS Restaurant,Ansbacher Str. 21,,,10787
+9,Zokis-Beer Pub,Kaulbachstraße 68,,,12247
+10,Fischladen,Rigaer Str. 83,,,10247
+11,ORA,Oranienplatz 14,,,10999
+12,Madame Claude,Lübbener Straße 19,,,10997
+13,Clärchens Ballhaus,Auguststraße 24,,,10117
+14,Das Hotel,Mariannenstraße 26A,,,10999
+15,Hops & Barley,Wühlischstraße 22,,,10245
+16,The Black Lodge,Sanderstraße 6,,,12047
+17,Badfish Bar,Stargarder Straße 14,,,10437
+18,Tante Lisbeth,Muskauer Straße 49,,,10997
+19,Green Door,Winterfeldtstraße 50,,,10781
+20,Klunkerkranich,Karl-Marx-Straße 66,,,12043
+21,KIM Bar,Brunnenstraße 10,,,10119
+22,Kaschk,Linienstraße 40,,,10119
+23,Monkey Bar,Budapester Straße 40,,,10787
+24,Tausend,Schiffbauerdamm 11,,,10117
+25,Kantine am Berghain,Rüdersdorfer Str 70,,,10243
+26,Geist Im Glass,Lenaustrasse 27,,,12047
+27,Dschungel Bar,Friedelstrasse 12,,,12047
+28,Prater Garten,Kastanienallee 7-9,,,10435
+29,Buck and Breck,Brunnenstrasse 117,,,10119
+30,Meine Bar ICI,Auguststrasse 61,,,10117
+31,Silver Future,Weserstrasse 206,,,12047
+32,Neue Odessa Bar,Torstrasse 89,,,10119
+33,Möbel-Olfe,Reichenberger Str 177,,,10999
+34,Ä,Weserstraße 40,,,12045
+35,Barbie Deinhoff’s,Schlesische Straße 16,,,10997
+36,Cafe Luzia,Oranienstraße 34,,,10999
+37,Mein Haus Am See,Brunnenstrasse 197,,,10119
+38,alles GuT,Horstweg 7,,,14059
+39,Stagger Lee,Nollendorfstraße 27,,,10777
+40,Mama Bar,Hobrechtstraße 61,,,12047
+41,Rum Trader,Fasanenstraße 40,,,10719
+42,Fuchsbau,Planufer 96,,,10967
+43,Victoria Bar,Potsdamer Straße 102,,,10785
+44,Fairytale Bar,Am Friedrichshain 24,,,10407
+45,Bar 3,Weydingerstraße 20,,,10178
+46,Bei Schlawinchen,Schönleinstraße 34,,,10967
+47,Kumpelnest 3000,Lützowstraße 23,,,10785
+48,Sharlie Cheen Bar,Brunnenstraße 196,,,10119
+49,BESTE Bar,Willdenowstraße 12A,,,13353
+50,BrewDog Berlin Mitte,Ackerstraße 29,,,10115
+51,The Castle Berlin Mitte,Invalidenstraße 129,,,10115
+52,Belushi's Berlin,Rosa-Luxemburg-Straße 41,,,10718
+53,booze bar berlin,Boxhagener Str 105,,,10245
+54,Hansbach Bar,Samariterstraße 18,,,10247
+55,Minimal Bar,Rigaer Str 31,,,10247
+56,Rockcafé HALFORD,Mainzer Str 15,,,10247
+57,Royal Bar,Pfalzburger Str 5,,,10719
+58,Velvet,Ganghoferstraße 1,,,12043
+59,Havanna Bar,Treskowallee 111,,,10318
+60,Paparazzi 63,Cecilienpl. 5,,,12619
+61,Chill Out Lounge,Cecilienpl. 10,,,12619
+62,Bierkeller,Oberfeldstraße 111,,,12683
+63,Café Memoli,Allee der Kosmonauten 131,,,12681
+64,BeachBar Helene-Weigel-Platz,Helene-Weigel-Platz 4,,,12681
+65,Balkan Bar,Siegfriedstraße 2,,,10365
+66,Finest's The Irish Pub,Waldstraße 58,,,10551
+67,Mauerwerk,Zwinglistraße 7,,,10555
+68,Heine Bar,Putlitzstraße 19,,,10551
+69,Perlou,Perleberger Str 58,,,10559
+70,Vagabund Brauerei,Antwerpener Str 3,,,13353
+71,Eschenbräu,Triftstraße 67,,,13353
