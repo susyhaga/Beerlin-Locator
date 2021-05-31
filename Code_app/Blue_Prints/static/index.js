@@ -107,7 +107,6 @@ renderMarkers(center, zoom);
   //   }
   // );
 
-  // The marker, positioned at Uluru
 
   // Create the search box and link it to the UI element.
   const input = document.getElementById("pac-input");
@@ -290,7 +289,7 @@ console.log(marker);
 console.log('marker.store.id', marker.store.id);
 console.log('marker.store.name', marker.store.name);
 
-
+$('#exampleModal').modal('show');
 
 var url = "http://127.0.0.1:5000/api/beer_ranking?" + dictToURI({storeId: marker.store.id}) 
 loadJSON(url, function(response) {
@@ -336,7 +335,18 @@ document.getElementById('rank_beer_10').innerHTML=beerbrands_rank_numbers[9];
 
 var yourUl = document.getElementById("table1");
 yourUl.style.display = '';
+
+$('.modal-body').load(document.getElementById('table1'),function(){
+      
 });
+
+
+
+
+});
+
+
+
 
 
 // de-select the previously active marker, if present
