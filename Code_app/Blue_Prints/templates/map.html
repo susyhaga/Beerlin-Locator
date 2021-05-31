@@ -109,100 +109,122 @@
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMd_Sabn9rfbMx7e9157nDFToMcTQAwvo&callback=initMap&l&libraries=places"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiOUmrrKKt0NpPmifb062tazYAWI8EwK8&callback=initMap&l&libraries=places"
       async
     ></script>
 
     <HR>
       <!--Highlighted / Selected Profile in Map: -->  
-      <div class="col-12 offset-3 container justify-content-center">
-        <ul id='table1' class="row jumbotron" style="display: none;">
-          <div class="container-fluid">
-            <h2>Selected Bar: <a class="mr-2" href="#" id="selected_name"></a> 
-              <a class="article-content" id="selected_ranking_init"></a>
-                <a class="article-content" id="selected_ranking_bar"> </a></h2>
-       
-            <p class="text-muted" id="selected_address"></p>
-            <div>
-            <div class="row">
-              <div class="col-sm-3" style="background-color:lavender;"><h6>Beer Brand</h6></div>
-              <div class="col-sm-3" style="background-color:lavender;"><h6>Ice-cold Rank</h6></div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_1"></a></a></div>
-              <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beer_1"></a></div><br>
-            </div>
-            <br>
+      
 
-            <div class="row">
-              <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_2"></a></a></div>
-              <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beer_2"></a></div><br>
-            </div>
-            <br>
-
-            <div class="row">
-              <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_3"></a></a></div>
-              <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beer_3"></a></div><br>
-            </div>
-            <br>
-
-            <div class="row">
-              <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_4"></a></a></div>
-              <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beer_4"></a></div><br>
-            </div>
-            <br>
-
-            <div class="row">
-             <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_5"></a></a></div>
-             <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beer_5"></a></div><br>
-          </div>  
-          <br>
-
-          <div class="text-justify">
-            <a class="btn btn-outline bg-warning my-4 my-sm-0" type="button" style="color:#000000;position: relative; display: inline-block;   "data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">See more</a>
-            <a class="btn btn-outline bg-warning  my-2 my-sm-0" type="button" style="color:#000000; position: relative; display: inline-block; left: 18%; transform: translate(-50%);" href="{{ url_for('maps.new_rank') }}">Rank your beer</a>
-            </div>
-            
-
-          <div class="collapse" id="collapseExample">
-   
-          <div class="row">
-                <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_6"></a></div>
-                <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beer_6"></a></div>
-          </div>
-          <br>
-
-          <div class="row">
-            <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_7"></a></div>
-            <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beer_7"></a></div>
-          </div>
-          <br>
-
-          <div class="row">
-            <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_8"></a></div>
-            <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beer_8"></a></div>
-          </div>
-          <br>
-
-          <div class="row">
-            <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_9"></a></a></div>
-            <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beer_9"></a></div>
-          </div>
-          <br>
-
-          <div class="row">
-            <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_10"></a></div>
-            <div class="col-sm-3" style="background-color:lavender;"><a class="article-content" id="rank_beer_10"></a></div>
-          </div>
-          <br>
-
-    </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Selected Bar:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-    </div>
+      <div class="modal-body">
+
+        <div class="col-12 container justify-content-center">
+          <ul id='table1' class="row jumbotron" style="display: none;">
+            <div class="container-fluid">
+              <h2><a class="mr-2" href="#" id="selected_name"></a> <br>
+                <a class="article-content" id="selected_ranking_init"></a>
+                  <a class="article-content" id="selected_ranking_bar"> </a></h2>
+         
+              <p class="text-muted" id="selected_address"></p>
+              <div>
+              <div class="row">
+                <div class="col-sm-6" style="background-color:lavender;"><h6>Beer Brand</h6></div>
+                <div class="col-sm-6" style="background-color:lavender;"><h6>Ice-cold Rank</h6></div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_1"></a></a></div>
+                <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beer_1"></a></div><br>
+              </div>
+              <br>
+  
+              <div class="row">
+                <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_2"></a></a></div>
+                <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beer_2"></a></div><br>
+              </div>
+              <br>
+  
+              <div class="row">
+                <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_3"></a></a></div>
+                <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beer_3"></a></div><br>
+              </div>
+              <br>
+  
+              <div class="row">
+                <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_4"></a></a></div>
+                <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beer_4"></a></div><br>
+              </div>
+              <br>
+  
+              <div class="row">
+               <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_5"></a></a></div>
+               <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beer_5"></a></div><br>
+            </div>  
+            <br>
+  
+            <div class="text-justify-center" style="text-align: center ">
+              <a class="btn btn-outline bg-warning my-6 my-sm-0" type="button" style="color:#000000;position: relative; display: inline-block;  "data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">See more</a>
+              <a class="btn btn-outline bg-warning  my-2 my-sm-0" type="button" style="color:#000000; position: relative; display: inline-block;  left: 18%; transform: translate(-50%);" href="{{ url_for('maps.new_rank') }}">Rank your beer</a>
+              </div>
+              
+  
+            <div class="collapse" id="collapseExample">
+     
+            <div class="row">
+                  <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_6"></a></div>
+                  <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beer_6"></a></div>
+            </div>
+            <br>
+  
+            <div class="row">
+              <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_7"></a></div>
+              <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beer_7"></a></div>
+            </div>
+            <br>
+  
+            <div class="row">
+              <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_8"></a></div>
+              <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beer_8"></a></div>
+            </div>
+            <br>
+  
+            <div class="row">
+              <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_9"></a></a></div>
+              <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beer_9"></a></div>
+            </div>
+            <br>
+  
+            <div class="row">
+              <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beerbrand_10"></a></div>
+              <div class="col-sm-6" style="background-color:lavender;"><a class="article-content" id="rank_beer_10"></a></div>
+            </div>
+            <br>
+  
+      </div>
         </div>
       </div>
-    </ul>
+          </div>
+        </div>
+      </ul>
+  
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline bg-warning" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
 {% endblock content %}
